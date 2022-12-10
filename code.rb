@@ -9,7 +9,7 @@ class Code
   end
 
   def generate
-    Array.new(4) { rand(1..6)}
+    Array.new(4) { rand(1..6) }
   end
 
   def code_correct?(code)
