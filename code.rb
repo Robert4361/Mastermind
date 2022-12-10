@@ -9,11 +9,7 @@ class Code
   end
 
   def generate
-    code_array = []
-    4.times do
-      code_array.push(rand(1..6))
-    end
-    code_array
+    Array.new(4) { rand(1..6)}
   end
 
   def code_correct?(code)
