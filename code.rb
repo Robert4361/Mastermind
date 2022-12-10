@@ -13,7 +13,7 @@ class Code
   end
 
   def code_correct?(code)
-    code = code.chars.map(&:to_i)
+    # code = code.chars.map(&:to_i)
     return true if code == @value
 
     get_clues(code)
